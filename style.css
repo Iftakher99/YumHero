@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #dce8ff;
+  font-family: 'poppins', sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  color: #1f2e4b;
+  font-weight: 500;
+}
+.navbar .logo img {
+  height: 4em;
+  width: fit-content;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+.nav_links {
+  display: flex;
+  padding: 10px;
+}
+.nav_links ul {
+  margin-top: 25px;
+  padding: 20px;
+  padding-right: 20px;
+}
+.nav_btn {
+  height: 120px;
+  width: 15em;
+  background-color: #6549f6;
+  color: #fff;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+li > ul:first-child {
+  text-decoration: underline;
+}
+#hero {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+#hero img {
+  height: 90vh;
+  width: 50vw;
+}
+.hero_heading h1 {
+  height: 100vh;
+  width: 50vw;
+  font-size: 5rem;
+  margin-left: 150px;
+  margin-top: 200px;
+  color: #1f2e4b;
+  background-image: url('assets/round-shape.png');
+  background-repeat: no-repeat;
+  z-index: 100;
+}
+.hero_img {
+}
